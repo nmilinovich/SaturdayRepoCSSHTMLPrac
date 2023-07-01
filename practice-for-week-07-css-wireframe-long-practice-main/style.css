@@ -1,9 +1,52 @@
-.upper__right {
+.nav__upper {
     display: flex;
-    margin-right: auto;
-    color: pink;
+    justify-content: center;
+}
+.upper__right {
+    /* position:absolute;
+    right:100px; */
+    margin-left: 600px;
+    text-decoration: none;
+    color: green;
 }
 
-h1 {
-    color: blue;
+.get-started {
+    padding-left: 15px;
+    box-shadow: ;
+}
+
+.get-started:hover {
+    box-shadow: 3px, 5px;
+}
+
+h2 {
+    text-align: justify;
+}
+
+.nav__lower {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 12px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: inline-block;
+    text-align: left;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.footer__right {
+    margin-left: 600px;
+    text-decoration: none;
+    color: green;
 }
