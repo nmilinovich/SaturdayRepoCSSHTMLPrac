@@ -1,0 +1,9 @@
+.upper__right {
+    display: flex;
+    margin-right: auto;
+    color: pink;
+}
+
+h1 {
+    color: blue;
+}
